@@ -64,7 +64,7 @@ customerAges(ages);
 function countdownOfLives() {
     let numberOfLives= 5;
     while (numberOfLives>= 1) {
-        console.log(`Number of lives are ${numberOfLives}`);
+        console.log(`Number of lives left are ${numberOfLives}`);
         numberOfLives--
     }
     console.log('Game over!')
